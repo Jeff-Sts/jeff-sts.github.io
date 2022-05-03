@@ -1,254 +1,216 @@
-* {
-    margin: 0 auto;
+*{
+    margin:0 auto;
 }
 
-a,
-a:link,
-a:hover,
-a:visited {
+a, a:link,a:hover, a:visited{
     text-decoration: none;
-    color: #ffffff;
+    color:#ffffff;
 }
 
-body {
+body{
     background-color: #e2e2e2;
 }
-
-.divtudo {
-    font-family: Arial, Helvetica, sans-serif;
+.tudo{
+    font-family: Arial, sans-serif;
 }
 
-.divlinha {
-    clear: both;
+.linha{
+    clear:both;
+}
+.h2TituloSessao{
+    font-size:20px;
+    margin:10px 0px 10px 10px;
 }
 
-.h2TituloSessao {
-    font-size: 20px;
-    margin: 10px 0px 10px 10px;
-}
-
-table,
-td,
-th {
-    border-bottom: solid 1px #e2e2e2;
+table, td, th{
     border-collapse: collapse;
-    border: solid;
+    padding: 7px 7px 7px 7px;
 }
 
-th {
+th{
     color: darkgray;
-    font-size: 14px;
     font-weight: normal;
-    text-align: center;
-}
-
-td {
     font-size: 14px;
     text-align: center;
 }
 
-#divCabecalho {
+td{
+    font-size: 14px;
+    text-align:center;
+}
+
+.imgClube{
+    width: 20px;
+    height: 20px;
+}
+
+.h3TituloGrupo{
+    font-size: 14px;
+}
+
+
+
+#divCabecalho{
     background-color: #162e58;
-    min-height: 100px;
-    padding: 30px 50px 10px 50px;
-    position: relative;
+    min-height:70px;
+    padding:30px 50px 10px 50px;
+    position:relative;
 }
 
-#h1TituloCabecalho {
-    color: #fff;
-    font-size: 16px;
-    text-align: left;
-    float: left;
-    min-width: 50%;
+#h1TituloCabecalho{
+    float:left;
+    font-size:14px;
+    color:white;
 }
 
-.diveMenu {
-    position: absolute;
-    bottom: 0;
+.divMenu{
+    position:absolute;
+    bottom: 0;  
     width: 100%;
     clear: both;
     text-align: center;
     padding-left: 21%;
     padding-right: 21%;
-    text-align: center;
+    text-align:center;
+    
 }
 
-.itemMenu {
+.itemMenu{
     float: left;
     color: #ffffff;
     text-align: center;
-    width: 12.5%;
+    width:12.5%;
     height: 40px;
+    
 }
 
-.itemMenu:hover {
+.itemMenu:hover{
     background-color: black;
 }
 
-#divClassificacao {
 
-    width: 50%;
+
+
+#divClassificacao{
+    
+    width:60%;
 }
 
-#tableClassificacao {
-    width: 100%;
+#tableClassificacao{
+    width:100%;
     background-color: #ffffff;
 }
 
-.h3TituloGrupo {
+#divGoleadores{
+    width:60%;    
+    
+}
+
+#tableGoleadores{
+    width:100%;
+    background-color: #ffffff;
+}
+
+#divJogos{
+    width:60%;
+    
+
+}
+
+#tableJogos{
+    width:100%;
+    background-color: #fff;
+}
+
+.thNomeClube{
+    width:50%;
+}
+
+.tdPosicao{
+    width: 3px;
     font-size: 14px;
-    padding: 5px 5px 5px;
 }
 
-.thNomeClube {
-    width: 50%;
-  
 
+.thUltimasCinco{
+    width:50%;
 }
 
-.tdPosicao {
-    width: 3%;
-    font-size: 14px;
-}
+
 .tdNomeClube{
-    text-align: left;
+    width:50%;
+    text-align:left;
 }
+
 .tdImgClube{
-    width: 5%;
-
+    width:5%;
 }
 
-.imgClube {
-    width: 20px;
-    height: 20px;
+
+.divVit{
+    background-image: url('../img/v.svg');
+    background-repeat: no-repeat;
+    height:16px;
+    width:16px;
+    float:right;
+    margin-right:5px;
 }
 
-.thUltimas {
-    width: 20%;
+.divEmp{
+    background-image: url('../img/e.svg');
+    background-repeat: no-repeat;
+    height:16px;
+    width:16px;
+    float:right;
+    margin-right:5px;
 }
 
-.tdNomeClube {
-    width: 50%;
+.divDer{
+    background-image: url('../img/d.svg');
+    background-repeat: no-repeat;
+    height:16px;
+    width:16px;
+    float:right;
+    margin-right:5px;
 }
 
-.tdImgClube {
-    width: 5%;
-}
-
-.tableJogos {
-    width: 100%;
-}
-
-#divGoleadores {
-    background-color: #fff;
+#divGoleadores{
     width: 60%;
 }
 
-#tableGoleadores {
+#tableGoleadores{
     width: 100%;
-}
-
-#divJogos {
-    width: 60%;
-    background-color: #fff;
-    padding-bottom: 50px;
-}
-
-#tableJogos {
-    width: 100%;
-    text-align: center;
-
-}
-
-.thUltimas {
-    width: 20%;
-}
-
-.divEmp {
-    background-image: url("../img/e.svg");
-    background-repeat: no-repeat;
-    height: 16px;
-    width: 16px;
-    float: right;
-    margin-right: 5px;
-}
-
-.divDer {
-    background-image: url("assets/img/d.svg");
-    background-repeat: no-repeat;
-    height: 16px;
-    width: 16px;
-    float: right;
-    margin: 5px;
-}
-
-.divVit {
-    background-image: url("assets/img/v.svg");
-    background-repeat: no-repeat;
-    height: 16px;
-    width: 16px;
-    float: right;
-    margin: 5px;
-}
-
-#divGoleadores {
-    width: 50%;
-}
-
-#tableGoleadores {
-
-    width: 100%;
-    background-color: #ffffff;
+    background-color:#ffffff;
 }
 
 #tableGoleadores td {
-    padding: 20px 10px 10px 10px;
+    padding: 20px 10px 10px 10px; 
 }
 
-.tdJogador {
-    text-align: left;
-    width: 90%;
+.tdJogador{
+    text-align: left;  
 }
 
-.spanNomeClube {
+.spanNomeClube{
     color: darkgray;
     font-size: 12px;
 }
 
-#divJogos {
-    width: 50%;
+.tdPosicao{
+    text-align:left;
+}
+
+.thGols{
+    text-align:right;
+    padding-right:9%;      
+}
+
+#divJogos{
+    width: 60%;
     padding-bottom: 50px;
 }
 
-#tableJogos {
+#tableJogos{
     width: 100%;
-    background-color: #ffffff;
-}
-
-#tableJogos .tdTableJogos {
-    padding: 10px 10px 10px 10px;
-}
-
-#tableJogos .tableJogo {
-    width: 100%;
-
-}
-
-.tablejogo .thTableJogo {
-    text-align: left;
-}
-
-.tableJogo .tdClube {
-    text-align: left;
-    width: 80%;
-}
-
-.tableJogo .tdHorario {
-    text-align: center;
-    font-size: 10px;
-}
-
-#tableJogos th,
-#tableJogos td {
-    border-bottom: 0px;
+    background-color:#ffffff;
 }
